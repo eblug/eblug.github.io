@@ -54,7 +54,7 @@ h1 {
   --clr: rgb(38, 0, 255);
 }
 .cyan {
-  --clr: rgb(8, 124, 124);
+  --clr: rgb(158, 158, 158);
 }
 .orange {
   --clr: orange;
@@ -71,8 +71,9 @@ h1 {
 }
 
 .yellow {
-  --clr: rgb(23, 151, 72);
-  color: aliceblue;
+  --clr: rgb(180, 180, 180);
+  color: black;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 body {
   font-family: "Roboto Mono", serif;
