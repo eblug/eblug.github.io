@@ -61,7 +61,7 @@ h1 {
   display: block;
 }
 .redd {
-  --clr: rgb(255, 0, 34);
+  --clr: rgb(17, 29, 34);
 }
 .tomato {
   --clr: rgb(255, 72, 0);
@@ -73,7 +73,7 @@ h1 {
 .yellow {
   --clr: rgb(180, 180, 180);
   color: black;
-  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  text-shadow: 1px -1px 2px rgb(0, 174, 255);
 }
 body {
   font-family: "Roboto Mono", serif;
