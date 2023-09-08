@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+* {
+  box-sizing: border-box;
+  margin:3px;
+}
+
+h1 {
+  color: black;
+  text-transform: uppercase;
+  margin: 30px;
+  text-shadow: 1px 1px 4px white;
+  text-align: center;
+  font-family: "Black Ops One", serif;
+}
+.box {
+  background-color: var(--clr);
+  color: rgb(185, 185, 212);
+  text-shadow: 1px 1px 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black;
+  transform: translateX(400%);
+  transition: transform 0.6s ease;
+  padding:15px;
+}
+.box:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+.box.show {
+  transform: translateX(0);
+}
+.blue {
+  --clr: blue;
+}
+.dark {
+  --clr: rgb(0, 0, 0);
+}
+.darko {
+  --clr: rgb(255, 123, 0);
+}
+.purple {
+  --clr: rgb(162, 0, 255);
+}
+.darkb {
+  --clr: rgb(38, 0, 255);
+}
+.cyan {
+  --clr: rgb(8, 124, 124);
+}
+.orange {
+  --clr: orange;
+}
+.redd {
+  --clr: rgb(255, 0, 34);
+}
+.yellow {
+  --clr: rgb(229, 255, 0);
+  color: aliceblue;
+}
+body {
+  font-family: "Roboto Mono", serif;
+  background: rgb(202, 202, 202);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+hr{
+  visibility: hidden;
+}
+a{
+  font-family:"Black Ops One", serif;
+  color:yellow;
+  text-shadow: 2px 2px 1px black;
+}
+a:hover{
+color:orangered;
+}
+a:visited{
+  color:blue;
+}
+img{
+  width: 200px;
+  height: 200px;
+  align:top;
+  border-radius: 20px;
+  object-position: top;
+}
